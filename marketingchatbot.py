@@ -4,7 +4,7 @@ import dspy
 import google.generativeai as genai  # Add this line
 
 # Configuring dspy settings with the base LM
-gemini = dspy.Google(model='gemini-1.5-flash', api_key="AIzaSyAlu2qxavYR91heNy1xs4YJgtijqIrJYww", temperature=0.3)
+gemini = dspy.Google(model='gemini-1.5-flash', api_key="Google API key", temperature=0.3)
 
 dspy.settings.configure(lm=gemini)
 
